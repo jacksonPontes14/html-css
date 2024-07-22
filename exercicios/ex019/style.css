@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(135, 244, 153, 0.699);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.699);
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+#principal {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(59, 184, 59);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h2 {
+     color: rgb(64, 194, 103);
+     
+}
+
+.topicos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.basico {
+    color: rgb(40, 162, 40);
+}
+
+.imtermediario {
+    color: rgb(117, 162, 40);
+}
+
+.avançado {
+    color: rgb(162, 40, 40);
+}
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5;</title>
+</head>
+<body>
+    <h1>Midias dinâmicas</h1>
+    <p>Tente abrir esse site em telas de tamanhos diferentes ou simplesmente mude o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/M.png" type="image/png">
+        <img src="imagens/G.png" alt="Imagem flexivel">
+    </picture>
+    <p>Caramba esse deu um trabalho para entender que ja tava ficando loucohaha porém eu consegui, essa é a primeira vez que eu resilvo um problema tô muito feliz
+    </p>
+
+    <p>Reproduzindo audio</p>
+    <audio src="midia/nationalsweetheart.mp3" controls autoplay></audio>
+     <p>Outra forma de adicionar audio no site</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+    </audio>
+    <p>Se o seu navegador não consegui reproduzir audio você pode <a href="midia/guanacast-33.mp3">Fazer o download do audio</a></p>
+</body>
+</html>

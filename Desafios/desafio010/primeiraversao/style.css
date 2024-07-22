@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+    
+}
+
+body {
+    background-color: rgba(255, 228, 196, 0.208);
+}
+
+
+header {
+    background-image: linear-gradient(to bottom, #0aee71, #195634 );
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.237);
+}
+
+.linknav {
+    text-decoration: none;
+    color: #0bff79a7;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 9px;
+}
+
+.linknav:hover {
+    background-color: #0aee71;
+    border: 8px solid #0aee71;
+    border-radius: 2px;
+    color: #2c955b;
+}
+
+#titulo {
+    text-align: center;
+    padding: 10px;
+}
+
+#pagrafotitulo {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.712);
+    padding-bottom: 10px;
+}
+
+main {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px;
+}
+
+#titulo1 {
+    font-family: "android";
+    color: #195634;
+}
+
+p {
+    text-align: justify;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+h2 {
+    background-image: linear-gradient(to left, white, #0bff79a7);
+    font-family: "android";
+    font-size: 1em;
+}
+
+.linksexternos {
+    text-decoration: none;
+    color: white;
+    background-color: #0aee71;
+}
+
+.image700 {
+    max-width: 700px;
+}
+
+#youtubevideo {
+    border:20px solid #195634;
+}
+
+#bugdroid {
+    font-display: block;
+    margin: auto;
+}
+
+aside {
+    background-color: #0aee71a4;
+    padding: 14px;
+    color: rgba(252, 253, 255, 0.799);
+}
+
+#titulo2 {
+    border: 20px solid #195634;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #195634;
+    margin: 0px;
+}
+
+footer {
+    background-color:#195634;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    padding: 2px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.237);
+}
