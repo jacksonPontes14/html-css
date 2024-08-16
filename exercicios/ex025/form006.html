@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php">
+        <p>
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor" value="#0000ff">
+        </p>
+
+        <p>
+            <label for="inivel">Nível de satisfação</label>
+            <input type="range" name="nivel" id="inivel" value="100">
+        </p>
+
+        <p>
+            <label for="ifoto"> Foto de perfil:</label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+        <!--SEmpre que você usar um input do tipo file você deve usar o método POST porque é um elemento que passa dos 3000 bytes (Limite de bytes definido para o método get) -->
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
