@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /* Aparelho em pé */
+
+body {
+    background: url(../images/cev-landscape.jpg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
