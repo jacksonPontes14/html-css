@@ -27,15 +27,12 @@ Telas grandes: Acima de 1200px
         color: black;
     }
 
-    main::after {
-        
-    }
-
     #phone {display: none;}
     #tablet {display: none;}
     #print {display: block;}
     #pc {display: none;}
     #tv {display: none;}
+    
 }
 
 /* Tablet */
